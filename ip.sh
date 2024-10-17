@@ -60,7 +60,7 @@ endpoint4() {
 		if [ $n -ge $iplist ]; then
 			break
 		fi
-		temp[$n]=$(echo 162.159.193.$(($RANDOM % 256)))
+		temp[$n]=$(echo 162.159.192.$(($RANDOM % 256)))
 		n=$(($n + 1))
 		if [ $n -ge $iplist ]; then
 			break
